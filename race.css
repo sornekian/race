@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-size: 0;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-#game{
+#game {
     margin: auto;
     padding: 20px;
     background-color: gray;
@@ -27,30 +27,30 @@ body{
     align-items: center;
 }
 
-p{
+p {
     text-align: center;
     font-size: 20px;
     color: white;
 }
 
-span{
+span {
     font-size: 20px;
     font-weight: 600;
 }
 
-#cp{
+#cp {
     color: lightgreen;
 }
 
-#p1{
+#p1 {
     color: lightskyblue;
 }
 
-#track_container{
+#track_container {
     margin: 20px;
 }
 
-.track{
+.track {
     position: static;
     display: block;
     background: rgb(68, 68, 68);
@@ -58,7 +58,8 @@ span{
 }
 
 #computer_track {
-    border-bottom: 2px dashed yellow; /* Adjusted border-bottom with wider gap */
+    border-bottom: 2px dashed yellow;
+    /* Adjusted border-bottom with wider gap */
     border-top: 2px solid white;
 }
 
@@ -66,7 +67,7 @@ span{
     border-bottom: 2px solid white;
 }
 
-.path{
+.path {
     display: inline-block;
     position: relative;
     width: 40px;
@@ -74,23 +75,24 @@ span{
     background-color: transparent;
 }
 
-.car{
+.car {
     z-index: 1;
     position: absolute;
     width: 40px;
     height: 40px;
 }
 
-#player1{
+#player1 {
     background: url('https://i.imgur.com/2U9AV1G.png');
-    background-size: cover; 
-}
-#computer{
-    background: url('https://i.imgur.com/Cfu2wBc.png');
-    background-size: cover; 
+    background-size: cover;
 }
 
-.display{
+#computer {
+    background: url('https://i.imgur.com/Cfu2wBc.png');
+    background-size: cover;
+}
+
+.display {
     width: 100%;
     display: flex;
     flex-direction: column;
